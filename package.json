@@ -1,0 +1,33 @@
+{
+  "name": "Makers-IDE",
+  "version": "1.0.0",
+  "description": "Multi-user code editor with WebSockets",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexfakhri/Makers-IDE_in_CoffeeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexfakhri/Makers-IDE_in_CoffeeScript/issues"
+  },
+  "homepage": "https://github.com/alexfakhri/Makers-IDE_in_CoffeeScript",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "coffee-script": "^1.8.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1",
+    "zombie": "^2.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "ejs": "^1.0.0",
+    "express": "^4.10.1",
+    "express-ejs-layouts": "^1.1.0",
+    "socket.io": "^1.2.0"
+  }
+}
